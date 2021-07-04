@@ -1,0 +1,269 @@
+﻿<html>
+
+<head>
+
+<title>留校茶看/顧客回應</title>
+<style>
+
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color:white;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aliceblue	;
+  font-family:微軟正黑體;
+}
+
+li {
+  float: right;
+  font-family:微軟正黑體;
+  }
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color:#F5F5F5	;
+  font-family:微軟正黑體;
+  font-size:60px;
+  text-align:center;
+  color:gray;
+  z-index:1;
+}
+
+fieldset {
+	margin: 1.5px 0 0 0;
+	padding: 15px;
+    border: 2px solid #CCC;
+}
+
+legend {
+	margin-left: 1em;
+	color:rosybrown;
+    font-weight: bold;
+	font-size:20px;
+}
+
+fieldset ol {
+	list-style: none;
+	padding-top: 3px;
+	padding-left: 2em;
+	padding-bottom: 3px;
+}
+
+fieldset li {
+	line-height: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+fieldset .input {
+	border-style: none;
+}
+
+.div1 {
+  width: 250px;
+  padding: 10px;
+  margin: 0;
+  border:10px solid whitesmoke;
+  text-align:left;
+}
+
+.div1:hover{
+  width: 250px;
+  padding: 10px;
+  margin: 0;
+  border:10px solid rosybrown;
+  text-align:center;
+}
+
+.div2{
+  position:relative;
+  width: 800px;
+  padding: 10px;
+  margin: 0;
+}
+
+input[type=submit] {
+
+  background-color: rosybrown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+  width:200px;
+  height:40px;
+}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+div.bottom
+{
+ position:relative;
+ background-color:#C0C0C0;
+ width:100%;
+ overflow:hidden;
+ bottom:0;
+ font-family:微軟正黑體;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sticky">留 校 茶 看<img src="icon.png" alt="tea" width="50" height="80"></div>
+<ul class="nav" id="nav">
+   <li style="background-color:oldlace;color:white;"><a class="active" href="公司簡介.html"><b>首頁></b></a></li>
+   <li><a href="公司人員簡介.html"><img src="https://image.flaticon.com/icons/svg/149/149066.svg" alt="tae" width="18" height="18"> 公 司 人 員 簡 介</a></li>
+   <li><a href="產品簡介.html"><img src="https://image.flaticon.com/icons/svg/135/135535.svg" alt="tae" width="18" height="18"> 產 品 簡 介</a></li>
+   <li><a href="財務報表.html"><img src="https://image.flaticon.com/icons/svg/138/138349.svg" alt="paper" width="18" height="18"> 財 務 報 表</a></li>
+   <li><a href="行事曆.html"><img src="https://image.flaticon.com/icons/svg/148/148994.svg" alt="calundar" width="18" height="18"> 行 事 曆</a></li>
+   <li><a href="表單.html"><img src="https://image.flaticon.com/icons/svg/148/148926.svg" alt="pencil" width="18" height="18"> 顧 客 回 應</a></li>
+ </ul>
+
+<BR><BR>
+
+<center>
+<div class="div1"><p><font style="font-size:50px; font-family:微軟正黑體; color:rosybrown;">Feedback //
+<br> 意  見  回  饋</font></p></div>
+
+
+<div class="div2"><p style="font-size:20px; font-family:微軟正黑體; color:gray;">        親愛的顧客您好！我們一向把顧客的建議列為重要考量，若您對我們團隊有任何指教或是建議，請不要吝嗇給予我們意見，不管是好是壞我們都將盡力改善！謝謝您願意花時間來為我們填問卷，謝謝！<br>
+
+<br>
+<img src="https://i.pinimg.com/564x/69/c9/fb/69c9fb084b58d2eb35ee25bf71ed97b3.jpg" alt="tea" width="180" height="180">
+<img src="https://i.pinimg.com/564x/76/7e/99/767e99f40c296bbeb7742453daf4451b.jpg" alt="tea" width="180" height="180">
+<img src="https://i.pinimg.com/564x/38/c9/5a/38c95a109664618d7144f0a358fb43aa.jpg" alt="tea" width="180" height="180">
+<img src="https://i.pinimg.com/564x/73/d2/49/73d249248ed6cd1c68d25cb93fb1c1db.jpg" alt="tea" width="180" height="180">
+
+<br><br>
+<Form Method="post" Action="MailTo:liuxiaochakan@yahoo.com.tw" Enctype="Text/Plain">
+
+    <fieldset>
+      <legend>Personal Information / 顧 客 資 料</legend>
+       <font style="font-family:微軟正黑體; font-size:19px; color:#888888;"> 
+	   <b>您 的 姓 名 : </b>
+	   <input name="name" type="text" maxlength="4">
+	   <br>-----------------<BR>
+		<b>性 別 : </b>
+		<input name="sex" value="male" type=radio>男
+		<input name="sex" value="female" type=radio>女
+		<input name="sex" value="secret" type=radio>保密
+		<br>-----------------<BR>
+        <b>E-mail Address : </b>
+		<input name="email" type="text">
+		<br>-----------------<BR>
+        <b>連 絡 電 話 :  </b></font>
+		<input name="phone" type="text">
+        </font>
+   </fieldset>
+   
+   <br>
+   <fieldset>
+     <legend>Items / 購 買 商 品 ( 可 複 選 )</legend>
+	 <br>
+        <font style="font-family:微軟正黑體; font-size:20px; color:#888888;">  
+		<input name="items" value="tea1" type=checkbox>  黑糖珍珠鮮奶
+		<input name="items" value="tea2" type=checkbox>  特製奶茶
+		<input name="items" value="tea3" type=checkbox>  草莓果茶
+		<input name="items" value="tea4" type=checkbox>  多多綠茶
+		<input name="items" value="tea5" type=checkbox>  蜂蜜鮮奶普洱茶
+		<input name="items" value="tea6" type=checkbox>  隱藏版
+
+		<br>
+		</font>
+		
+	<br>
+    </fieldset>
+	<br>
+	
+	<fieldset>
+	<legend>Satisfaction Survey / 顧 客 滿 意 度</legend>
+	<font style="font-family:微軟正黑體; font-size:19px; color:#888888;"> 
+	  <B>服 務 態 度 :</B><input name="service" value="excellent" type=radio>非常滿意
+				<input name="service" value="good" type=radio>滿意
+				<input name="service" value="soso" type=radio>還好
+				<input name="service" value="bad" type=radio>不滿意
+				<input name="service" value="terrible" type=radio>非常不滿意
+				<br>-----------------<BR>
+	  <B>產 品 品 質 :</B><input name="quality" value="excellent" type=radio>非常滿意
+				<input name="quality" value="good" type=radio>滿意
+				<input name="quality" value="soso" type=radio>還好
+				<input name="quality" value="bad" type=radio>不滿意
+				<input name="quality" value="terrible" type=radio>非常不滿意
+				<br>-----------------<BR>
+	  <B>店 內 整 潔 :</B><input name="clean" value="excellent" type=radio>非常滿意
+				<input name="clean" value="good" type=radio>滿意
+				<input name="clean" value="soso" type=radio>還好
+				<input name="clean" value="bad" type=radio>不滿意
+				<input name="clean" value="terrible" type=radio>非常不滿意
+				<br>-----------------<BR>
+	  <B>整 體 評 價 :</B><input name="all" value="excellent" type=radio>非常滿意
+				<input name="all" value="good" type=radio>滿意
+				<input name="all" value="soso" type=radio>還好
+				<input name="all" value="bad" type=radio>不滿意
+				<input name="all" value="terrible" type=radio>非常不滿意
+	</fieldset>
+ 
+	<br>
+	<fieldset>
+	<legend>Opinions / 意 見 欄</legend>
+	<font style="font-family:微軟正黑體; font-size:19px; color:#888888;"> 
+	給 我 們 的 鼓 勵 或 建 議 :<br>
+	<textarea name="opinions" rows="5" cols="100" wrap="off"></textarea>
+	</fieldset>
+	
+	<br>
+
+    <input type="submit" value="OK ! 提交">
+	
+	</center>
+	
+</form>
+
+<br><bR>
+ <div class=bottom>
+<center>
+<font color=white align=center size=2px>版權所有©2019留校茶看有線公司 Taiwan Leave School Tea Look.
+<br>本網站由妙妙屋成員們建置，不代表資工系學生
+<br>法律顧問：目前缺席</font>
+</center>
+</div></font>
+
+</body>
+
+</html>
